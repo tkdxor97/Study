@@ -23,7 +23,7 @@ def find_air(x, y):
                 find_air(x+index_x[i], y+index_y[i])
 
 find_air(0,0)
-print(cheese)
+# print(cheese)
 
 def in_air(x, y):
     for i in range(4):
@@ -48,10 +48,10 @@ cheese_count = 0
 while(1):
     sw = 0
     time += 1
-    print("=============", time, "=============")
+    # print("=============", time, "=============")
     for i in range(H):
         for j in range(W):
-            print(cheese[i][j], end = " ")
+            # print(cheese[i][j], end = " ")
             if(cheese[i][j] == 1):
                 cheese_count += 1
                 if(in_air(i, j)):
@@ -59,7 +59,7 @@ while(1):
                 sw = 1
 
 
-        print("")
+        # print("")
     for i in range(H):
         for j in range(W):
             if(cheese[i][j] == 0):
@@ -68,4 +68,4 @@ while(1):
         break
     pre_cheese_count = cheese_count
     cheese_count = 0
-print(time-1, pre_cheese_count)
+print(time-1, "\n", pre_cheese_count, sep = "")
