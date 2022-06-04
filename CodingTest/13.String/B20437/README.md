@@ -1,4 +1,4 @@
-[문자열 게임 2](https://www.acmicpc.net/problem/20437)
+#[문자열 게임 2](https://www.acmicpc.net/problem/20437)
 
 ### 문제
 작년에 이어 새로운 문자열 게임이 있다. 게임의 진행 방식은 아래와 같다.

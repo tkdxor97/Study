@@ -1,4 +1,4 @@
-[우체국](https://www.acmicpc.net/problem/2141)
+#[우체국](https://www.acmicpc.net/problem/2141)
 
 ### 문제
 수직선과 같은 일직선상에 N개의 마을이 위치해 있다. i번째 마을은 X[i]에 위치해 있으며, A[i]명의 사람이 살고 있다.
